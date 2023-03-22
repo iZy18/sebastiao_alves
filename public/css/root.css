@@ -1,0 +1,11 @@
+:root {
+  --cinza1D: rgb(29, 29, 29);
+  --cinza70: rgb(112, 112, 112);
+  --cinza4D: rgb(77, 77, 77);
+  --douradoB4: rgb(180, 125, 51);
+  --douradoB1: rgb(177, 126, 59);
+  --douradoA9: rgb(169, 115, 57);
+  --laranja: rgb(213, 157, 84);
+  --branco: rgb(255, 255, 255);
+  --preto: rgb(0, 0, 0);
+}

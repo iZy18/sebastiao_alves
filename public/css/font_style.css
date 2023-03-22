@@ -1,0 +1,120 @@
+.t1 {
+  font-family: "IBM Bold";
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.p {
+  font-family: "IBM Light";
+  font-size: 13px;
+  color: var(--cinza4D);
+}
+
+.titulo {
+  font-family: "IBM Bold";
+  font-size: 35px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.menu-rodape {
+  font-family: "Lato Black";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.menu-rodape .selected,
+.menu-rodape:hover {
+  color: var(--douradoB4);
+}
+
+.menu {
+  font-family: "Lato Black";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.selected,
+.menu:hover {
+  color: var(--douradoB4);
+}
+
+.submenu {
+  font-family: "IBM Medium";
+  font-size: 13px;
+  color: var(--cinza4D);
+  text-transform: uppercase;
+}
+
+.submenu.selected,
+.dropdown-menu .submenu:hover {
+  color: var(--douradoB1);
+}
+
+.novidade {
+  font-family: "Lato Black";
+  text-align: left;
+  color: var(--douradoA9);
+  text-transform: uppercase;
+}
+
+.titulo-cabecalho {
+  font-family: "IBM Light";
+  font-size: 40px;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.texto-cabecalho {
+  font-family: "IBM Light";
+  font-size: 13px;
+  text-align: left;
+  color: var(--cinza4D);
+}
+
+.destaque-home {
+  font-family: "Lato Black";
+  font-size: 23px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.contato-titulo {
+  font-family: "IBM Medium";
+  font-size: 15px;
+  text-align: left;
+  color: var(--douradoB1);
+  text-transform: uppercase;
+}
+
+.contato-conteudo {
+  font-family: "IBM Light";
+  font-size: 15px;
+  color: var(--cinza4D);
+}
+
+.imprensa-pub {
+  font-family: "IBM Medium";
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--cinza4D);
+}
+
+.paginacao {
+  font-size: "IBM Medium";
+  font-size: 23px;
+  color: var(--cinza4D);
+  cursor: pointer;
+}
+
+.paginacao:hover {
+  color: var(--douradoB1);
+}
+
+.pag-ativa {
+  color: var(--douradoA9);
+}

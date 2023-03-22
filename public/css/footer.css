@@ -1,0 +1,60 @@
+.linha-2 {
+  height: 1px;
+  background-color: var(--cinza70);
+}
+
+.c-rs {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.img-rs {
+  height: 37px;
+  width: 37px;
+}
+
+.insta .img-i2,
+.insta:hover .img-i1,
+.face .img-f2,
+.face:hover .img-f1,
+.lin .img-l2,
+.lin:hover .img-l1 {
+  display: none;
+}
+
+.insta:hover .img-i2,
+.face:hover .img-f2,
+.lin:hover .img-l2 {
+  display: block;
+  cursor: pointer;
+}
+
+.info-legal {
+  margin: 58px 0 70px 150px;
+}
+
+.livroreclamacoes {
+  width: 77px;
+  height: 31px;
+}
+
+.ralc {
+  width: 125px;
+  height: 29px;
+  margin-left: 43px;
+}
+
+.cookies {
+  margin-top: 88px;
+}
+
+/* MOBILE */
+
+.footer-mobile .linha-mobile {
+  width: 80vw !important;
+  margin: auto !important;
+}
+
+.footer-mobile .info-legal {
+  margin: 0 !important;
+}

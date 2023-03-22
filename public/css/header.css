@@ -1,0 +1,174 @@
+body {
+  max-width: 1280px;
+  overflow-x: hidden !important;
+}
+
+.linha {
+  margin: 15px 55px 0px 55px;
+  height: 1px;
+  background-color: var(--cinza70);
+}
+
+.header-desktop {
+  position: relative;
+}
+
+.cima {
+  position: absolute !important;
+
+  z-index: 20;
+}
+
+.dropdown-menu {
+  padding: 25px 30px 25px 30px;
+  margin-top: 17px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 2px 17px gray;
+}
+
+.dropdown-item:hover {
+  background: none !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+#cabecalho {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 730px;
+  z-index: 10;
+}
+
+.cabecalho-img {
+  max-height: 730px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+}
+
+.btn-text-left {
+  text-align: left;
+}
+
+.saber-mais {
+  border: none;
+  width: 120px;
+  height: 30px;
+  background-image: url("http://localhost/sebastiao_alves/public/imagens/desktop/sabermais1.svg");
+}
+
+.saber-mais:hover {
+  background-image: url("http://localhost/sebastiao_alves/public/imagens/desktop/sabermais2.svg");
+}
+
+.carousel-indicators {
+  position: absolute;
+  justify-content: left !important;
+  bottom: 80px;
+  display: flex;
+  gap: 12px;
+}
+.carousel-indicators li {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100%;
+  background-image: url("http://localhost/sebastiao_alves/public/imagens/desktop/bolabanner1.svg");
+}
+
+.carousel-indicators .active {
+  background-image: url("http://localhost/sebastiao_alves/public/imagens/desktop/bolabanner2.svg");
+}
+
+/* MOBILE */
+
+#cabecalho2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 760px;
+  z-index: 10;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.header-mobile .cabecalho-img {
+  min-height: 760px;
+}
+
+.header-mobile .titulo {
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  padding-left: 10%;
+}
+
+.header-mobile .cima {
+  width: 100%;
+  margin-top: 70px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.header-mobile .navbar-toggler {
+  border: none !important;
+  margin: auto !important;
+  position: relative;
+  right: 0px;
+  color: transparent !important;
+}
+
+.header-mobile .navbar-toggler-icon {
+  width: 35px !important;
+  height: 25px !important;
+  background-image: url(http://localhost/sebastiao_alves/public/imagens/mobile/menu.svg) !important;
+}
+
+.header-mobile .navbar-toggler[aria-expanded="true"] > .navbar-toggler-icon {
+  background-image: url(http://localhost/sebastiao_alves/public/imagens/mobile/fechar.svg) !important;
+}
+
+.linha-mobile {
+  margin-left: 10%;
+  width: 86%;
+  height: 1px;
+  background-color: var(--cinza70);
+}
+
+.header-mobile .navbar-nav {
+  background-color: white;
+  width: 100vw !important;
+  position: absolute !important;
+  left: -500% !important;
+  padding: 25px 30px 35px 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 2px 17px gray;
+}
+
+.header-mobile .dropdown-menu {
+  width: 100%;
+  padding: 16px 30px 16px 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 2px 17px gray;
+}
+
+.header-mobile .carousel-caption {
+  margin-top: 140px;
+}
+
+.header-mobile .carousel-indicators {
+  bottom: 0px !important;
+}
